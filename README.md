@@ -2,8 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/react-native-error-reporter.svg)](http://badge.fury.io/js/react-native)
 
-![iOS Demo screen](https://dl.dropboxusercontent.com/u/11386030/1.png)
-![Android Demo screen](https://dl.dropboxusercontent.com/u/11386030/2.png)
+<img src="https://dl.dropboxusercontent.com/u/11386030/1.png" height=400 alt="iOS Demo screen"/>
+<img src="https://dl.dropboxusercontent.com/u/11386030/2.png" height=400 alt="Android Demo screen"/>
 
 ## Installation
 You can install this component through ``npm``:
