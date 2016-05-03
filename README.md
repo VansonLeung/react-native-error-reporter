@@ -2,10 +2,10 @@
 
 [![npm version](https://badge.fury.io/js/react-native-error-reporter.svg)](http://badge.fury.io/js/react-native)
 
-<img src="https://dl.dropboxusercontent.com/u/11386030/1.png" height=400 alt="Step 1"/>
-<img src="https://dl.dropboxusercontent.com/u/11386030/2.png" height=400 alt="Step 2"/>
-<img src="https://dl.dropboxusercontent.com/u/11386030/3.png" height=400 alt="Step 3"/>
-<img src="https://dl.dropboxusercontent.com/u/11386030/4.png" height=400 alt="Step 4"/>
+<img src="https://dl.dropboxusercontent.com/u/11386030/3.png" height=300 alt="Step 1"/>
+<img src="https://dl.dropboxusercontent.com/u/11386030/4.png" height=300 alt="Step 2"/>
+<img src="https://dl.dropboxusercontent.com/u/11386030/5.png" height=300 alt="Step 3"/>
+<img src="https://dl.dropboxusercontent.com/u/11386030/6.png" height=300 alt="Step 4"/>
 
 ## Objectives
 Aims to replicate ```ARCA``` and connect to ```Crashlytics```. For the ease of your clients to report you crash issues.
