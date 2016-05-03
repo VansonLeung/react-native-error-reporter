@@ -38,11 +38,12 @@ If you test the app in 'release' mode for production, all the bundled javascript
 
 
 ## Roadmap
+```
 ✔ Email support @done (16-05-03 17:32)
 ☐ Stealth mode (send crash reports automatically without calling the alert)
 ☐ Crashlytics support
 ☐ Dedicated server SAAS support (Please feel free to post issues / PRs)
-
+```
 
 ## License
 
