@@ -25,7 +25,7 @@ Bootstrap this inside your app header (e.g. app.js , or index.ios.js / index.and
 
 ```js
 ...
-var ErrorReporter = require('react-native-error_reporter');
+var ErrorReporter = require('react-native-error-reporter');
 ErrorReporter.init("vanson@vanportdev.com", "My App's Crash Report");
 ...
 ```
@@ -34,7 +34,7 @@ OR
 
 ```js
 ...
-import ErrorReporter from 'react-native-error_reporter';
+import ErrorReporter from 'react-native-error-reporter';
 ErrorReporter.init("vanson@vanportdev.com", "My App's Crash Report");
 ...
 ```
