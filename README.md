@@ -2,6 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/react-native-error-reporter.svg)](http://badge.fury.io/js/react-native)
 
+Supports iOS & Android React Native
+
 <img src="https://dl.dropboxusercontent.com/u/11386030/3.png" height=300 alt="Step 1"/>
 <img src="https://dl.dropboxusercontent.com/u/11386030/4.png" height=300 alt="Step 2"/>
 <img src="https://dl.dropboxusercontent.com/u/11386030/5.png" height=300 alt="Step 3"/>
