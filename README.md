@@ -10,7 +10,7 @@ Supports iOS & Android React Native 0.21+
 <img src="https://dl.dropboxusercontent.com/u/11386030/6.png" height=300 alt="Step 4"/>
 
 ## Objectives
-Aims to replicate ```ARCA``` and connect to ```Crashlytics```. For the ease of your clients to report you crash issues.
+Aims to replicate <a href='https://github.com/ACRA/acra'>ARCA</a> and connect to ```Crashlytics``` (Crashlytics Connection Not finished). For the ease of your clients to report you crash issues.
 After reporting the crash, the default Crash red screen will come out / crash when in production mode.
 The images above shows the current steps you will go through for the crash reporting process.
 
