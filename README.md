@@ -1,6 +1,6 @@
 # react-native-error-reporter
 
-
+[![npm version](https://badge.fury.io/js/react-native-error-reporter.svg)](http://badge.fury.io/js/react-native)
 
 ![iOS Demo screen](https://dl.dropboxusercontent.com/u/11386030/1.png)
 ![Android Demo screen](https://dl.dropboxusercontent.com/u/11386030/2.png)
