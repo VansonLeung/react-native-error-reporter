@@ -1,6 +1,7 @@
 # react-native-error-reporter
 
 [![npm version](https://badge.fury.io/js/react-native-error-reporter.svg)](http://badge.fury.io/js/react-native)
+[![NPM](https://nodei.co/npm/react-native-error-reporter.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-keyboard-aware-view/)
 
 Supports iOS & Android React Native 0.21+
 
