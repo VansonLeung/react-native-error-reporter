@@ -41,9 +41,12 @@ If you test the app in 'release' mode for production, all the bundled javascript
 
 About debugging production apps by showing development codes, as the bundling process obfuscates the code without leaving a trace like Proguard mapping, there's not much thing we could do to improve this. But at least you could try to locate the actual code location with the help of the release bundle file. 
 
+Remember to keep one copy of the release bundle file after any production release to App Store / Google Play for your reference.
+You may also keep the IPA / APK copies. You could uncompress the IPA / APK files to obtain the bundle file.
+
 ## TODO:
 
-Describe ways to find ```index.ios.bundle``` and ```index.android.bundle``` in this README.md.
+Describe all ways to find ```index.ios.bundle``` and ```index.android.bundle``` in this README.md.
 
 
 ## Roadmap
