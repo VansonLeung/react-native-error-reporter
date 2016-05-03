@@ -5,6 +5,9 @@
 <img src="https://dl.dropboxusercontent.com/u/11386030/1.png" height=400 alt="iOS Demo screen"/>
 <img src="https://dl.dropboxusercontent.com/u/11386030/2.png" height=400 alt="Android Demo screen"/>
 
+## Objectives
+Aims to replicate ```Crashlytics``` and ```ARCA```. For the ease of your clients to report you crash issues.
+
 ## Installation
 You can install this component through ``npm``:
 
