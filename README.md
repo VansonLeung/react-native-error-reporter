@@ -2,11 +2,15 @@
 
 [![npm version](https://badge.fury.io/js/react-native-error-reporter.svg)](http://badge.fury.io/js/react-native)
 
-<img src="https://dl.dropboxusercontent.com/u/11386030/1.png" height=400 alt="iOS Demo screen"/>
-<img src="https://dl.dropboxusercontent.com/u/11386030/2.png" height=400 alt="Android Demo screen"/>
+<img src="https://dl.dropboxusercontent.com/u/11386030/1.png" height=400 alt="Step 1"/>
+<img src="https://dl.dropboxusercontent.com/u/11386030/2.png" height=400 alt="Step 2"/>
+<img src="https://dl.dropboxusercontent.com/u/11386030/3.png" height=400 alt="Step 3"/>
+<img src="https://dl.dropboxusercontent.com/u/11386030/4.png" height=400 alt="Step 4"/>
 
 ## Objectives
 Aims to replicate ```ARCA``` and connect to ```Crashlytics```. For the ease of your clients to report you crash issues.
+After reporting the crash, the default Crash red screen will come out / crash when in production mode.
+The images above shows the current steps you will go through for the crash reporting process.
 
 ## Installation
 You can install this component through ``npm``:
