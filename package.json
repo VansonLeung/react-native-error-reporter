@@ -1,0 +1,54 @@
+{
+  "name": "react-native-error-reporter",
+  "version": "1.0.2",
+  "description": "Application Error and Crash Reports for React Native",
+  "main": "index.js",
+  "directories": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VansonLeung/react-native-error-reporter.git"
+  },
+  "tags": [
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "error",
+    "reporting",
+    "reporter",
+    "stack",
+    "trace",
+    "email",
+    "crash"
+  ],
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "error",
+    "reporting",
+    "reporter",
+    "stack",
+    "trace",
+    "email",
+    "crash"
+  ],
+  "author": "Vanson Wing Leung <vanson@vanportdev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VansonLeung/react-native-error-reporter/issues"
+  },
+  "homepage": "https://github.com/VansonLeung/react-native-error-reporter#readme",
+  "dependencies": {
+    "react-native": ">=0.21.0"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.21.0"
+  }
+}
