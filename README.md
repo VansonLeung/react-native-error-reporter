@@ -36,6 +36,12 @@ ErrorReporter.init("vanson@vanportdev.com", "My App's Crash Report");
 
 If you test the app in 'release' mode for production, all the bundled javascript codes are minified. This plugin could not tell the original stack. You need to view the production codes inside ```index.ios.bundle``` or ```index.android.bundle```
 
+About debugging production apps by showing development codes, as the bundling process obfuscates the code without leaving a trace like Proguard mapping, there's not much thing we could do to improve this. But at least you could try to locate the actual code location with the help of the release bundle file. 
+
+## TODO:
+
+Describe ways to find ```index.ios.bundle``` and ```index.android.bundle``` in this README.md.
+
 
 ## Roadmap
 ```
