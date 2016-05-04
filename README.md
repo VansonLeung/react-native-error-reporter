@@ -62,7 +62,7 @@ Describe all ways to find ```index.ios.bundle``` and ```index.android.bundle``` 
 ## Roadmap
 ```
 ✔ Email support @done (16-05-03 17:32)
-☐ Support release sourcemaps
+☐ Support sourcemaps for iOS and Android release builds
 ☐ Stealth mode (send crash reports automatically without calling the alert)
 ☐ Crashlytics support
 ☐ Dedicated server SAAS support (Please feel free to post issues / PRs)
