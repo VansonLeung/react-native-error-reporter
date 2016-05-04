@@ -44,7 +44,7 @@ ErrorReporter.init("vanson@vanportdev.com", "My App's Crash Report");
 
 ## Limitations
 
-### Update: [2016/05/04] Investigations prove that it is possible to obtain the sourcemaps for the minified javascript codes & then locate the real stack locations. Now starting to work on a more user-friendly solution for this.
+### Update: [2016/05/04] Investigations prove that it is possible to obtain the sourcemaps for the minified javascript codes & then locate the real stack locations. Error Reporter tested OK on iOS release builds. Now starting to work on a more user-friendly solution for this.
 
 If you test the app in 'release' mode for production, all the bundled javascript codes are minified. This plugin could not tell the original stack. You need to view the production codes inside ```index.ios.bundle``` or ```index.android.bundle```
 
