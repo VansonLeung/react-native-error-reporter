@@ -44,12 +44,15 @@ ErrorReporter.init("vanson@vanportdev.com", "My App's Crash Report");
 
 ## Limitations
 
+### Update: [2016/05/04] Investigations prove that it is possible to obtain the sourcemaps for the minified javascript codes & then locate the real stack locations. Now starting to work on a more user-friendly solution for this.
+
 If you test the app in 'release' mode for production, all the bundled javascript codes are minified. This plugin could not tell the original stack. You need to view the production codes inside ```index.ios.bundle``` or ```index.android.bundle```
 
 About debugging production apps by showing development codes, as the bundling process obfuscates the code without leaving a trace like Proguard mapping, there's not much thing we could do to improve this. But at least you could try to locate the actual code location with the help of the release bundle file. 
 
 Remember to keep one copy of the release bundle file after any production release to App Store / Google Play for your reference.
 You may also keep the IPA / APK copies. You could uncompress the IPA / APK files to obtain the bundle file.
+
 
 ## TODO:
 
@@ -59,6 +62,7 @@ Describe all ways to find ```index.ios.bundle``` and ```index.android.bundle``` 
 ## Roadmap
 ```
 ✔ Email support @done (16-05-03 17:32)
+☐ Support release sourcemaps
 ☐ Stealth mode (send crash reports automatically without calling the alert)
 ☐ Crashlytics support
 ☐ Dedicated server SAAS support (Please feel free to post issues / PRs)
