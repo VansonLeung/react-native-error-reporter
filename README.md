@@ -64,7 +64,7 @@ Describe all ways to find ```index.ios.bundle``` and ```index.android.bundle``` 
 ✔ Email support @done (16-05-03 17:32)
 ☐ Support sourcemaps for iOS and Android release builds (inspect decoded error stacks for production builds)
 ☐ Stealth mode (send crash reports automatically without calling the alert)
-☐ Crashlytics support
+☐ Crashlytics support (as a Crashlytics stack source provider)
 ☐ Dedicated server SAAS support (Please feel free to post issues / PRs)
 ```
 
