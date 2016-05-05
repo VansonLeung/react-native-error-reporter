@@ -19,6 +19,9 @@ You can install this component through ``npm``:
 npm i react-native-error-reporter --save
 ```
 
+
+
+
 ## Usage
 
 Bootstrap this inside your app header (e.g. app.js , or index.ios.js / index.android.js)
@@ -39,25 +42,76 @@ ErrorReporter.init("vanson@vanportdev.com", "My App's Crash Report");
 ...
 ```
 
-## Limitations
 
-If you test the app in 'release' mode for production, all the bundled javascript codes are minified. This plugin could not tell the original stack. You need to view the production codes inside ```index.ios.bundle``` or ```index.android.bundle```
 
-About debugging production apps by showing development codes, as the bundling process obfuscates the code without leaving a trace like Proguard mapping, there's not much thing we could do to improve this. But at least you could try to locate the actual code location with the help of the release bundle file. 
+~~~~~~~~~~~~~~~~~~~~~~
 
-Remember to keep one copy of the release bundle file after any production release to App Store / Google Play for your reference.
-You may also keep the IPA / APK copies. You could uncompress the IPA / APK files to obtain the bundle file.
 
-## TODO:
 
-Describe all ways to find ```index.ios.bundle``` and ```index.android.bundle``` in this README.md.
+## EXPERIMENTAL - TO BE IMPROVED: How to allow Sourcemap crash log in Production Apps
+
+The steps below heavily relies on ```rnpm```. Please install this if you don't have it.
+
+### After Installation
+
+```shell
+rnpm link
+```
+
+
+### iOS - 
+
+#### Step 1: 
+
+```shell
+react-native bundle --platform ios --entry-file index.ios.js --dev false --bundle-output ./ios/main.jsbundle --assets-dest ./ios --sourcemap-output "node_modules/react-native-error-reporter/sourcemaps/errorreporter_sourcemaps_ios.ttf"
+```
+
+#### Step 2:
+```
+Go to XCode project, Uncomment: 
+```
+jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+```
+
+#### Step 3:
+Run the project in ```Release``` mode. 
+
+
+
+### Android - 
+
+#### Step 1:
+
+```shell
+react-native bundle --platform android --dev false --entry-file index.android.js   --bundle-output android/app/src/main/assets/index.android.bundle   --assets-dest android/app/src/main/res/ --sourcemap-output "node_modules/react-native-error-reporter/sourcemaps/errorreporter_sourcemaps_android.ttf"
+```
+
+
+### Step 2:
+
+```shell
+rnpm link
+```
+
+### Step 3:
+
+After setting up your signing configs inside build.gradle, run:
+
+```shell
+cd android && ./gradlew installRelease
+```
+
+
+~~~~~~~~~~~~~~~~~~~~~~
 
 
 ## Roadmap
 ```
 ✔ Email support @done (16-05-03 17:32)
+✔ (EXPERIMENTAL) Support sourcemaps for iOS and Android production builds (inspect decoded error stacks for production builds) @done (16-05-06 01:08)
 ☐ Stealth mode (send crash reports automatically without calling the alert)
-☐ Crashlytics support
+☐ Crashlytics support (as a Crashlytics stack source provider)
 ☐ Dedicated server SAAS support (Please feel free to post issues / PRs)
 ```
 

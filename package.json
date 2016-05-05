@@ -39,16 +39,21 @@
     "email",
     "crash"
   ],
+  "rnpm": {
+    "assets": [
+      "sourcemaps"
+    ]
+  },
   "author": "Vanson Wing Leung <vanson@vanportdev.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/VansonLeung/react-native-error-reporter/issues"
   },
-  "homepage": "https://github.com/VansonLeung/react-native-error-reporter#readme",
   "dependencies": {
-    "react-native": ">=0.21.0"
+    "base-64": "^0.1.0",
+    "bluebird": "^2.9.25",
+    "utf8": "^2.1.1",
+    "source-map": "^0.5.6"
   },
-  "peerDependencies": {
-    "react-native": ">=0.21.0"
-  }
+  "homepage": "https://github.com/VansonLeung/react-native-error-reporter#readme"
 }
