@@ -68,7 +68,6 @@ react-native bundle --platform ios --entry-file index.ios.js --dev false --bundl
 ```
 
 #### Step 2:
-```
 Go to XCode project, Uncomment: 
 ```
 jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
