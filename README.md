@@ -19,6 +19,10 @@ You can install this component through ``npm``:
 npm i react-native-error-reporter --save
 ```
 
+```shell
+rnpm link
+```
+
 
 
 
