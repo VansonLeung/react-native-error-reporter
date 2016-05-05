@@ -1,6 +1,6 @@
 {
   "name": "react-native-error-reporter",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Application Error and Crash Reports for React Native",
   "main": "index.js",
   "directories": {

@@ -44,8 +44,7 @@ ErrorReporter.init("vanson@vanportdev.com", "My App's Crash Report");
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~
-
+------------
 
 
 ## EXPERIMENTAL - TO BE IMPROVED: How to allow Sourcemap crash log in Production Apps
@@ -102,7 +101,7 @@ cd android && ./gradlew installRelease
 ```
 
 
-~~~~~~~~~~~~~~~~~~~~~~
+----------
 
 
 ## Roadmap
