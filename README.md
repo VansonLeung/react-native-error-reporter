@@ -1,3 +1,5 @@
+# WARNING: DEPRECATED SORRY
+
 # react-native-error-reporter
 
 [![npm version](https://badge.fury.io/js/react-native-error-reporter.svg)](http://badge.fury.io/js/react-native)
